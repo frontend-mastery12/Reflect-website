@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reflect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  Navigation Bar -->
+    <header class="header">
+      <div class="nav-container">
+        <a href="#" class="brand-logo">
+          <img src="./images/logo.png" />
+          <span class="brand-name">Reflect</span>
+        </a>
+
+        <nav class="nav-pill">
+          <a href="#" class="nav-link">Product</a>
+          <a href="#" class="nav-link">Pricing</a>
+          <a href="#" class="nav-link">Company</a>
+          <a href="#" class="nav-link">Blog</a>
+          <a href="#" class="nav-link">Changelog</a>
+          <a href="#" class="nav-link">GitHub</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="nav-login">Log in to Classic</a>
+          <a href="#" class="btn btn-download">Download</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section (Page 1) -->
+      <section class="section hero-section text-center">
+        <div class="ambient-glow"></div>
+
+        <div class="section-header">
+          <a href="#" class="section-badge">
+            <span class="sparkle-icon">✦</span>
+            <span>Meet Reflect Open</span>
+          </a>
+
+          <h1 class="section-title">Think better with Reflect</h1>
+
+          <p class="section-subtitle">
+            An open-source note-taking app with daily notes, backlinks, and
+            local Markdown files.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#" class="btn btn-primary">Download for Mac</a>
+            <a href="#" class="btn btn-secondary">Get the iPhone & iPad app</a>
+          </div>
+
+          <p class="hero-subtext">
+            Free on Mac. Paid subscription on iPhone and iPad.
+          </p>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-blackhole-container">
+            <video class="hero-video" autoplay loop muted playsinline>
+              <source src="videos/1st-page-video.webm" type="video/webm" />
+            </video>
+          </div>
+
+          <div class="app-window-card">
+            <div class="app-window-glow-line"></div>
+            <div class="app-preview-inner">
+              <img
+                src="images/Ist-page-image.png"
+                alt="Reflect App Note Taking Interface"
+                class="app-screenshot"
+              />
+              <button
+                class="play-button"
+                id="playBtn"
+                aria-label="Play Product Demo"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  fill="currentColor"
+                >
+                  <polygon points="6 4 20 12 6 20"></polygon>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Second Section -->
+      <section class="section section-radar text-center">
+        <div class="radar-visual-wrapper">
+          <div class="radar-circle-clip">
+            <video class="radar-video" autoplay loop muted playsinline>
+              <source src="videos/2nd-page-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <!-- Central Glow Logo Badge -->
+          <div class="radar-center-badge">
+            <img
+              src="images/2nd-page-image.png"
+              alt="Reflect Central Hub"
+              class="radar-badge-img"
+            />
+          </div>
+        </div>
+
+        <div class="section-header">
+          <div class="section-badge">
+            <span>Research and reading</span>
+          </div>
+
+          <h2 class="section-title">Never lose information</h2>
+
+          <p class="section-subtitle">
+            Capture links, text, and screenshots with the Chrome extension on
+            Mac.
+          </p>
+        </div>
+
+        <!-- Dual Features Row -->
+        <div class="dual-features-container">
+          <!-- Feature 1 -->
+          <div class="feature-col">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="26"
+                height="26"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="3" width="14" height="10" rx="1.5"></rect>
+                <line x1="5" y1="17" x2="13" y2="17"></line>
+                <line x1="9" y1="13" x2="9" y2="17"></line>
+                <rect x="15" y="7" width="7" height="14" rx="1.5"></rect>
+                <line x1="18.5" y1="18" x2="18.5" y2="18.01"></line>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Integrated with your devices</h3>
+            <p class="feature-text">
+              Read and write on Mac, iPhone, and iPad.<br />
+              Set up iCloud Drive or Git to sync your notes.
+            </p>
+          </div>
+
+          <!-- Vertical Separator Divider -->
+          <div class="feature-divider"></div>
+
+          <!-- Feature 2 -->
+          <div class="feature-col">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="26"
+                height="26"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <rect x="9.5" y="11" width="5" height="4" rx="1"></rect>
+                <path d="M10.5 11V9.5a1.5 1.5 0 0 1 3 0V11"></path>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Keep useful context</h3>
+            <p class="feature-text">
+              Save the source link alongside your clips.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+         Third Section (Page 3 - Privacy / Local files)
+         ========================================================================== -->
+      <section class="section section-privacy text-center">
+        <!-- Animated Encrypted Cipher Text Cloud Video -->
+        <div class="cipher-video-wrapper">
+          <video class="cipher-video" autoplay loop muted playsinline>
+            <source src="videos/3rd-page-video.webm" type="video/webm" />
+          </video>
+        </div>
+
+        <!-- Section 3 Content using reusable classes -->
+        <div class="section-header">
+          <!-- Glowing Padlock Icon -->
+          <div class="privacy-lock-container">
+            <img
+              src="images/3rd-page-image.png"
+              alt="Privacy Lock"
+              class="privacy-lock-img"
+            />
+          </div>
+
+          <!-- Reusable Badge -->
+          <div class="section-badge">
+            <span>Privacy</span>
+          </div>
+
+          <!-- Reusable Title -->
+          <h2 class="section-title">Local files</h2>
+
+          <!-- Reusable Subtitle -->
+          <p class="section-subtitle">
+            Your notes live in a folder you choose. Notes marked private<br />
+            are excluded from AI note access.
+          </p>
+
+          <!-- Reusable CTA Button -->
+          <div class="privacy-btn-wrapper">
+            <a href="#privacy" class="btn btn-secondary">How privacy works</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+         Fourth Section (Page 4 - About / Globe)
+         ========================================================================== -->
+      <section class="section section-about text-center">
+        <!-- Section 4 Content using reusable classes -->
+        <div class="section-header">
+          <!-- Reusable Badge -->
+          <div class="section-badge">
+            <span>About</span>
+          </div>
+
+          <!-- Reusable Title -->
+          <h2 class="section-title">
+            We're an indie team<br />
+            dotted across the globe
+          </h2>
+
+          <!-- Reusable Subtitle -->
+          <p class="section-subtitle">
+            Our mission is to improve the way people think by making a<br />
+            jolly good note-taking app.
+          </p>
+
+          <!-- Reusable CTA Button -->
+          <div class="globe-btn-wrapper">
+            <a href="#values" class="btn btn-secondary">See our values</a>
+          </div>
+        </div>
+
+        <!-- 3D Rotating Dotted Globe Video -->
+        <div class="globe-video-wrapper">
+          <video class="globe-video" autoplay loop muted playsinline>
+            <source src="videos/4rd-page-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================================================
+       Footer Section
+       ========================================================================== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Top Links & Brand Row -->
+        <div class="footer-top">
+          <div class="footer-brand-col">
+            <a href="#" class="brand-logo" aria-label="Reflect Home">
+              <div class="logo-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="9"
+                    stroke="url(#logo-grad-footer)"
+                  />
+                  <polygon
+                    points="12 3 19.8 7.5 19.8 16.5 12 21 4.2 16.5 4.2 7.5"
+                    stroke="url(#logo-grad-footer)"
+                    stroke-opacity="0.8"
+                  />
+                  <line
+                    x1="12"
+                    y1="3"
+                    x2="12"
+                    y2="21"
+                    stroke="url(#logo-grad-footer)"
+                    stroke-opacity="0.6"
+                  />
+                  <line
+                    x1="4.2"
+                    y1="7.5"
+                    x2="19.8"
+                    y2="16.5"
+                    stroke="url(#logo-grad-footer)"
+                    stroke-opacity="0.6"
+                  />
+                  <line
+                    x1="4.2"
+                    y1="16.5"
+                    x2="19.8"
+                    y2="7.5"
+                    stroke="url(#logo-grad-footer)"
+                    stroke-opacity="0.6"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="logo-grad-footer"
+                      x1="0"
+                      y1="0"
+                      x2="24"
+                      y2="24"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0%" stop-color="#c084fc" />
+                      <stop offset="100%" stop-color="#7c3aed" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <span class="brand-name">Reflect</span>
+            </a>
+
+            <!-- Social Links (Discord & X) -->
+            <div class="footer-socials">
+              <!-- Discord -->
+              <a
+                href="https://discord.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-social-link"
+                aria-label="Discord"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
+                  />
+                </svg>
+              </a>
+              <!-- X / Twitter -->
+              <a
+                href="https://x.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-social-link"
+                aria-label="X"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Navigation Columns -->
+          <div class="footer-links-group">
+            <!-- Product -->
+            <div class="footer-col">
+              <h4>Product</h4>
+              <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#changelog">Changelog</a></li>
+                <li>
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#team">Our team</a></li>
+                <li><a href="#values">Our values</a></li>
+                <li><a href="#blog">Blog</a></li>
+              </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-col">
+              <h4>Resources</h4>
+              <ul>
+                <li><a href="#downloads">Downloads</a></li>
+                <li><a href="#documentation">Documentation</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="footer-divider"></div>
+
+        <!-- Newsletter Row -->
+        <div class="footer-newsletter">
+          <div class="newsletter-text">
+            <h3 class="newsletter-heading">Join our newsletter</h3>
+            <p class="newsletter-subtext">
+              Keep up to date with everything Reflect
+            </p>
+          </div>
+          <form class="newsletter-form" onsubmit="event.preventDefault()">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="newsletter-input"
+              required
+            />
+            <button type="submit" class="btn btn-subscribe">Subscribe</button>
+          </form>
+        </div>
+
+        <!-- Divider -->
+        <div class="footer-divider"></div>
+
+        <!-- Legal & Copyright Row -->
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="#privacy">Privacy Policy</a>
+            <span class="dot-separator">·</span>
+            <a href="#terms">Terms and Conditions</a>
+          </div>
+          <p class="footer-copyright">Reflect App, LLC. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Video Modal for Demo -->
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+      <div class="video-modal-backdrop" id="modalBackdrop"></div>
+      <div class="video-modal-content">
+        <button
+          class="video-modal-close"
+          id="modalClose"
+          aria-label="Close modal"
+        >
+          &times;
+        </button>
+        <div class="video-player-wrapper">
+          <video id="modalVideo" controls preload="none">
+            <source src="videos/click-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
