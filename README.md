@@ -80,5 +80,5 @@ This project is built for educational purposes only. The design is a recreation 
 ## 👨‍💻 Author
 **Frontend Mastery**
 GitHub: [frontend-mastery12](https://github.com/frontend-mastery12)
-
+like the video
 ---
